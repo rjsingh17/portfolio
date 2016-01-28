@@ -23,6 +23,7 @@ body, html {
 }
 
 .intro {
+    font-weight: normal;
 }
 
 .about .col {
