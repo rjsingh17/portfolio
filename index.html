@@ -1,0 +1,173 @@
+<html>
+<head>
+
+  <title>Framework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link type="text/css" rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="intro deep-orange lighten-2 z-depth.1">
+  <h1 class="grey-text text-lighten-5">RJ Singh</h1>
+  <h5 class="grey lighten-4 grey-text text-darken-1">web and mobile developer</h5>
+</div>
+
+<div class="container about">
+  <h5> About Me</h5>
+  <h6>Let me introduce my self</h6>
+  <hr>
+  <div class="row">
+    <div class="col s12 m4 l4">
+      <h6>Story</h6>
+      <!-- insert some paragraphs here -->
+      Hello! I am RJ Singh.
+    </div>
+    <div class="col s12 m4 l4">
+      <h6>Profile</h6>
+      <div class="card blue-grey darken-1">
+        
+        <div class="card-content white-text">
+          <img src="http://url/to/profile-image.png" width="64" height="64">
+          <!-- put one paragraph here -->
+          <p>Hello my paragraph is suppose to be here. I can not think of anything else, so i am going to type random stuff. Starbucks would be nice right now O_o!</p>
+        </div>
+        
+        <div class="card-action">
+          <a href="http://www.linkedin.com/in/frodobaggins">Linked In</a>
+          <a href="http://www.facebook.com/in/frodobaggins">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 l4">
+      <h6>Current Jobs</h6>
+      <!-- put your job list here-->
+      
+      <ul class="collapsible">
+        
+        <li class="active">
+          <div class="collapsible-header">
+            <i class="mdi-av-web"></i>
+            Designer
+          </div>
+          <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="mdi-editor-format-align-justify"></i>
+            Developer
+          </div>
+          <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </li>
+        
+        <li>
+          <div class="collapsible-header">
+            <i class="mdi-av-play-shopping-bag"></i>
+            Video Editor
+          </div>
+          <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </li>
+        
+        <li>
+          <div class="collapsible-header">
+            <i class="mdi-av-play-shopping-bag"></i>
+            Support Asst.
+          </div>
+          <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+  <div class="container portfolio">
+    <h5>portfolio</h5>
+    <h6>My Latest Projects</h6>
+    <hr>
+    <div class="row">
+      <div class=col s12 m12 l12 portfolio-holder>
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      <img class="materialboxed"
+            src="http://placehold.it/428x285">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="contact">
+  <div class="col s6 m3 l2">
+  <h5>Contact</h5>
+  <h6>get in touch with me</h6>
+
+      <div class="row">
+          <form class="col s12 m4 l4">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="Your Message" type="text" class="validate">
+                <label for="Your Message">Your Message</label>
+              </div>
+            </div>
+          </form>
+      </div>
+      
+      <div class="row">
+        <p2>Address: 123 Hello Blvd, Dallas, TX 76543</p2>
+        <br>
+        <p2>Phone: 132-456-7890</p2>
+        <br>
+        <p2>Website: https://ide.c9.io/rjsingh17/materialize </p2>
+      </div>
+      
+        
+  </div>        
+</div>
+       
+
+  <!-- jQuery is required by Materialize to function -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+  </script>
+</body>
+</html>
